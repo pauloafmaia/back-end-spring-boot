@@ -1,8 +1,8 @@
-package com.example.demo.controller;
+package com.example.spring.controller;
 
-import com.example.demo.domain.User;
-import com.example.demo.dto.UserDTO;
-import com.example.demo.service.UserService;
+import com.example.spring.domain.User;
+import com.example.spring.dto.UserDTO;
+import com.example.spring.service.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

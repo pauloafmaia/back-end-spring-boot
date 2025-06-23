@@ -1,9 +1,7 @@
-package com.example.demo.service;
+package com.example.spring.service;
 
-import com.example.demo.domain.Employee;
-import com.example.demo.domain.User;
-import com.example.demo.repository.EmployeeRepository;
-import com.example.demo.repository.UserRepository;
+import com.example.spring.domain.Employee;
+import com.example.spring.repository.EmployeeRepository;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

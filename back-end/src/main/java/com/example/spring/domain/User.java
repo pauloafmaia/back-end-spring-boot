@@ -1,4 +1,4 @@
-package com.example.demo.domain;
+package com.example.spring.domain;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
