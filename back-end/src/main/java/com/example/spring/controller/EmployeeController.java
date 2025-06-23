@@ -1,8 +1,8 @@
-package com.example.demo.controller;
+package com.example.spring.controller;
 
-import com.example.demo.domain.Employee;
-import com.example.demo.dto.EmployeeDTO;
-import com.example.demo.service.EmployeeService;
+import com.example.spring.domain.Employee;
+import com.example.spring.dto.EmployeeDTO;
+import com.example.spring.service.EmployeeService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
