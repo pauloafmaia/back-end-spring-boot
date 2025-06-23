@@ -38,7 +38,7 @@ public class UserService {
 
         if (!existingUser.getUsername().equals(updatedUser.getUsername())
                 && userRepository.existsByUsername(updatedUser.getUsername())) {
-            throw new IllegalArgumentException("Username already exists");
+            throw new IllegalArgumentException("Username already exists!");
         }
 
         if (!existingUser.getEmail().equals(updatedUser.getEmail())
